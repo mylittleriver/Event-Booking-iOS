@@ -6,14 +6,14 @@ The app includes event listings, event details, ticket availability checking, da
 
 ## 🚀 Features
 
-### 🔹 1. Interactive UI Components
+### 1. Interactive UI Components
 - Event listing screen
 - Event detail screen
 - Graphical calendar date picker
 - Ticket selection interface
 - Payment confirmation screen
 
-### 🔹 2. RESTful API Integration
+### 2. RESTful API Integration
 The app fully integrates with backend services for:
 - Fetching event list  
 - Fetching event details  
@@ -22,7 +22,7 @@ The app fully integrates with backend services for:
 
 All API requests are implemented using **async/await**.
 
-### 🔹 3. Modular MVVM Architecture
+### 3. Modular MVVM Architecture
 Cleanly separated modules:
 - **Models**  
 - **Views**  
