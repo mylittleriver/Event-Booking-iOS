@@ -1,24 +1,12 @@
-//
-//  ContentView.swift
-//  Event-Booking-iOS
-//
-//  Created by 夏姝珺 on 1/18/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            EventListView()
+                .tabItem {
+                    Label("Events", systemImage: "calendar")
+                }
         }
-        .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

@@ -1,7 +1,9 @@
-//
-//  Event.swift
-//  Event-Booking-iOS
-//
-//  Created by 夏姝珺 on 1/18/26.
-//
+import Foundation
 
+struct Event: Identifiable, Codable {
+    let id: Int
+    let title: String
+    let date: String
+    let location: String
+    let description: String
+}
