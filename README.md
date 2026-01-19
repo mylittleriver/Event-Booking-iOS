@@ -4,6 +4,18 @@ The app includes event listings, event details, ticket availability checking, da
 
 ---
 
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Language | Swift 5 |
+| UI Framework | SwiftUI |
+| Architecture | MVVM |
+| Networking | URLSession + async/await |
+| State Management | ObservableObject + @Published |
+
+---
+
 ## 🚀 Features
 
 ### 1. Interactive UI Components
@@ -30,18 +42,6 @@ Cleanly separated modules:
 - **Services**
 
 Ensures scalability and easy maintenance.
-
----
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| Language | Swift 5 |
-| UI Framework | SwiftUI |
-| Architecture | MVVM |
-| Networking | URLSession + async/await |
-| State Management | ObservableObject + @Published |
 
 ---
 ## ▶️ Running the App in Simulator
